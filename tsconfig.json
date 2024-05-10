@@ -13,8 +13,7 @@
     "sourceMap": true,
     "paths": {
       "ngx-html5-qrcode": [
-        "dist/ngx-html5-qrcode/ngx-html5-qrcode",
-        "dist/ngx-html5-qrcode"
+        "src/ngx-html5-qrcode",
       ]
     },
     "declaration": false,

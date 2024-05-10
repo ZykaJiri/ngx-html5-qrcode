@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {NgxHtml5QrcodeModule} from '../../../ngx-html5-qrcode/src/public-api';
+import {NgxHtml5QrcodeModule} from '../../../src/public-api';
 
 import {AppComponent} from './app.component';
 

@@ -1,6 +1,6 @@
 {
   "name": "html5-qrcode-angular",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --project example",
@@ -8,19 +8,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "dependencies": {
-    "@angular/animations": "^16.2.12",
+  "peerDependencies": {
     "@angular/common": "^16.2.12",
-    "@angular/compiler": "^16.2.12",
     "@angular/core": "^16.2.12",
-    "@angular/forms": "^16.2.12",
-    "@angular/platform-browser": "^16.2.12",
-    "@angular/platform-browser-dynamic": "^16.2.12",
-    "@angular/router": "^16.2.12",
-    "html5-qrcode": "^2.1.6",
-    "rxjs": "~7.4.0",
-    "tslib": "^2.3.0",
-    "zone.js": "~0.13.3"
+    "html5-qrcode": "^2.1.6"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.2.14",
@@ -48,7 +39,7 @@
     "angular"
   ],
   "author": "jirizyka",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ZykaJiri/ngx-html5-qrcode/issues"
   },
