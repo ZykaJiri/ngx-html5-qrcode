@@ -137,6 +137,5 @@
         }
       }
     }
-  },
-  "defaultProject": "ngx-html5-qrcode"
+  }
 }
