@@ -1,6 +1,6 @@
 {
-  "name": "ngx-html5-qrcode",
-  "version": "0.0.0",
+  "name": "html5-qrcode-angular",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --project example",
@@ -36,5 +36,21 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "ng-packagr": "^16.2.3",
     "typescript": "~5.1.6"
-  }
+  },
+  "description": "This is the angular adaptation of the \"**[HTML5 QRCode](https://github.com/mebjas/html5-qrcode)**\". For the documentation please have a look at https://github.com/mebjas/html5-qrcode.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZykaJiri/ngx-html5-qrcode.git"
+  },
+  "keywords": [
+    "html5-qrcode",
+    "angular"
+  ],
+  "author": "jirizyka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZykaJiri/ngx-html5-qrcode/issues"
+  },
+  "homepage": "https://github.com/ZykaJiri/ngx-html5-qrcode#readme"
 }
