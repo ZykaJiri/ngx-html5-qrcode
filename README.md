@@ -2,6 +2,20 @@
 
 This is the angular adaptation of the "**[HTML5 QRCode](https://github.com/mebjas/html5-qrcode)**". For the documentation please have a look at https://github.com/mebjas/html5-qrcode.
 
-Cheers!
+Install using:
+```bash
+npm i ngx-html5-qrcode-16
+```
+Angular usage - viz. example project in github
+  ```html
+   <div style="width: 800px; height: 600px;">
+    <html5-qrcode(decodedText)="decodedText = $event" (decodedResult)="qrCodeSuccess($event)"></html5-qrcode>
+  </div>
+  ```
 
-Thanks
+Other options:
+ - useFrontCamera=true|false
+ - config - Html5QrcodeCameraScanConfig entity from the original library
+   - Example: {fps: 10, qrbox: {width: 250, height: 250}}
+
+Pull requests are welcome.

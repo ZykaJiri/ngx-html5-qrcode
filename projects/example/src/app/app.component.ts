@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Html5QrcodeResult} from "html5-qrcode/core";
 
 @Component({
   selector: 'app-root',
@@ -6,9 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'example';
+  decodedText: string = '';
 
-  handleQrCode(code: any){
-
+  qrCodeSuccess(qrCodeResult: Html5QrcodeResult) {
+    console.log('Successfully scanned QR code', qrCodeResult);
   }
 }

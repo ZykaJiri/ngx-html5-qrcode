@@ -59,8 +59,7 @@ export class NgxHtml5QrcodeComponent implements OnInit, AfterViewInit, OnDestroy
   }
 
   qrCodeErrorCallback(errorMessage: any) {
-    /* handle success */
-    console.error(errorMessage);
+
   }
 
   startHtmlQrCode() {
